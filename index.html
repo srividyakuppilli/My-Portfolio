@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="small-header">SriVidya Kuppili</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero / Landing -->
+    <section class="hero" id="home" aria-label="Landing">
+        <div class="hero-accents">
+            <span class="accent-dot accent-1"></span>
+            <span class="accent-dot accent-2"></span>
+            <span class="accent-dot accent-3"></span>
+        </div>
+        <div class="hero-inner">
+            <div class="hero-badge">Full-Stack Developer</div>
+            <h1 class="brand-name">Kuppili <span class="highlight">SriVidya</span></h1>
+            <p class="tagline">Crafting elegant, scalable web solutions with Java, Python & modern web technologies</p>
+
+            <div class="contact-ctas">
+                <a class="btn primary" href="https://www.linkedin.com/in/srividya-kuppilli-3b058a290" target="_blank" rel="noopener noreferrer">
+                    <span class="icon">💼</span> LinkedIn
+                </a>
+                <a class="btn" href="https://github.com/srividyakuppilli" target="_blank" rel="noopener noreferrer">
+                    <span class="icon">⚙️</span> GitHub
+                </a>
+                <a class="btn ghost" href="mailto:Srividyakuppilli@gmail.com">
+                    <span class="icon">✉️</span> Email
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-accent"></div>
+        <h2>About Me</h2>
+        <p>I am a passionate Java Full-Stack Developer with a strong foundation in basic Python, HTML, CSS, and JavaScript. My expertise extends to Java and Object-Oriented Programming (OOPs), enabling me to build structured and scalable applications. Certified in Python . With hands-on experience in frontend and backend development, I create responsive, interactive, web applications. I am continuously learning and refining my skills to deliver innovative solutions.
+</p>
+    </section>
+    <section id="skills">
+    <div class="section-accent"></div>
+    <h2>Skills & Expertise</h2>
+    <div class="skills-list">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Responsive Design</span>
+        <span>Python</span>
+        <span>Bootstrap</span>
+        <span>Java</span>
+    </div>
+</section>
+
+    <section id="projects">
+        <div class="section-accent"></div>
+        <h2>Featured Projects</h2>
+        <div class="project-list">
+            <div class="project"><h6>🌐 Portfolio Website</h6>Built a basic portfolio website with help of HTML, CSS, and JavaScript that is responsive and interactive with sleek and simple user-friendly design with minimal color palette.</div>
+            <div class="project"><h6>🔐 Smart Voting Device</h6>Smart voting device by using face recognition and finger-id with Raspberry Pi: Developed a secure and efficient voting system using face recognition and fingerprint authentication with Raspberry Pi.</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-accent"></div>
+        <h2>Let's Work Together</h2>
+        <p style="margin-bottom: 20px; color: #6b7280;">Got a project in mind? I'd love to hear from you. Send me a message!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Tell me about your project..." required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-inner">
+            <p class="footer-call">Get in touch</p>
+            <div class="footer-contacts">
+                <a href="https://www.linkedin.com/in/srividya-kuppilli-3b058a290" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/srividyakuppilli" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="mailto:Srividyakuppilli@gmail.com">Srividyakuppilli@gmail.com</a>
+            </div>
+            <p class="copyright">&copy; <span id="year"></span>SriVidya Kuppili</p>
+        </div>
+    </footer>
+
+    <script>
+        // set copyright year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
